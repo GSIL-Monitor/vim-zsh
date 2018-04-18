@@ -1,0 +1,26 @@
+[alias]
+    st = status
+    cm = commit
+    co = checkout
+    br = branch
+    cl = clone
+    cf = config
+    fe = fetch
+    me = merge
+    pu = push
+    or = origin
+    ma = master
+    ga = git add
+    gst = git status
+    gcm = git commit
+    gco = git checkout
+    gcl = git clone
+    gb = git branch
+    grh = git reset HEAD
+    gf = git fetch
+    gm = git merge
+    gpo = git push origin
+    gpom = git push origin master
+[user]
+	name = xxx
+	email = xxx
