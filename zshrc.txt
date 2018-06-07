@@ -114,13 +114,6 @@ alias sr='~/ssh.sh'
 alias nr='ssh weili105@relay.creditease.corp'
 alias free='top -l 1 | head -n 10 | grep PhysMem'
 
-# Setting PATH for Python 3.5
-# The orginal version is saved in .bash_profile.pysave
-#export PATH=/usr/local/Cellar/python/2.7.10_2/bin:$PATH
-PATH="/System/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
-export EDITOR=/usr/bin/vim
-#export VIM_APP_DIR=/usr/local/Cellar/macvim/7.4-77
 export PATH=/usr/local/sbin:$PATH
 
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
