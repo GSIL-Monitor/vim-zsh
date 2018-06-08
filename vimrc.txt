@@ -58,7 +58,7 @@ set nowrapscan " 禁止在搜索到文件两端时重新搜索
 set incsearch " 输入搜索内容时就显示搜索结果
 set hlsearch " 搜索时高亮显示被找到的文本
 set expandtab " 不要用空格代替制表符
-set nowrap "取消换行
+set wrap "自动折行
 set gdefault " 行内替换
 set encoding=utf-8 " 编码设置
 set fileencodings=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936,utf-16,big5,euc-jp,latin1
